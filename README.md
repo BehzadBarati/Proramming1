@@ -3,11 +3,12 @@
 
 Author: Behzad Barati
 
+----
 Research Question:
+Is there any significant difference between tomamto usage in food recipes of Asian and European countires? we measure which fraction of recipes which have Tomato as their ingredients as an indicator for showing popularity of Tomato for each continent.
 
-Is there any significant difference between tomamto usage in food recipes of Asian and European countires?
+----
 Dataset:
-
 RecipeNLG dataset is composed of Recipe1M dataset and other recipes which were added by RecipeNLG authors.
 This dartaset is introduced in RecipeNLG paper and is avalilable at this website.
 Preprocessing steps:
@@ -17,8 +18,8 @@ Some preprocessing actions also took place on dataset (in Preprocessing recipe_t
 Hints:
 
 1_ As our csv file is greater than 2 gigabytes, I prefer to use cloud services(here google colab). I uploaded RecipeNLG dataset in my google drive. It is public.
-
 2_ If there is out of memory error in running "ProfileReport", please first re-install latest version of "pandas_profiling" library, then try "minimal=True" argument in "profileReport" for eliminating some calculations. (pip install https://github.com/pandas-profiling/pandas-profiling/archive/master.zip)
+
 ----
 Summary for doing statistical analysis:
 
@@ -33,3 +34,5 @@ Random variable: xA-xE = difference in the sample mean amount of time Asian and 
 H0: μg = μb  H0: μg – μb = 0
 
 Ha: μg ≠ μb  Ha: μg – μb ≠ 0
+
+As our statistics is very low (-140) and is less than our p-value, we can conclude that our means are not significantly different between our two groups. 
