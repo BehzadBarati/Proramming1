@@ -5,7 +5,7 @@ Author: Behzad Barati
 
 ----
 Research Question:
-Is there any significant difference between tomamto usage in food recipes of Asian and European countires? we measure which fraction of recipes which have Tomato as their ingredients as an indicator for showing popularity of Tomato for each continent.
+Is there any significant difference between tomato usage in food recipes of Asian and European countries? we measure which fraction of recipes which have Tomato as their ingredients as an indicator for showing popularity of Tomato for each continent.
 
 ----
 Dataset:
@@ -35,4 +35,4 @@ H0: μg = μb  H0: μg – μb = 0
 
 Ha: μg ≠ μb  Ha: μg – μb ≠ 0
 
-As our statistics is very low (-140) and is less than our p-value, we can conclude that our means are not significantly different between our two groups. 
+As our p-value is very low (zero), we can conclude that our means are equal and there is significant difference between our two groups. 
